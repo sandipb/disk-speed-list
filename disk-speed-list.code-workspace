@@ -5,6 +5,9 @@
 		}
 	],
 	"settings": {
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"python.formatting.provider": "black",
+		"python.analysis.typeCheckingMode": "basic",
+		"python.defaultInterpreterPath": ".venv/bin/python"
 	}
 }
